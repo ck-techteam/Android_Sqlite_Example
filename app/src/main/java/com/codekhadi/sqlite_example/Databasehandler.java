@@ -28,7 +28,7 @@ public class Databasehandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String CREATE_CONTACTS_TABLE = "CREATE TABLE " + TABLE_Name +
-                "(" + USER_NAME + " TEXT," + ")";
+                "(" + USER_NAME + " TEXT" + ")";
         db.execSQL(CREATE_CONTACTS_TABLE);
     }
 
@@ -50,7 +50,7 @@ public class Databasehandler extends SQLiteOpenHelper {
         ArrayList<String> mylist = new ArrayList<>();
         Cursor cursor = db.query(TABLE_Name, null, null, null, null, null, null);
         while (cursor.moveToNext()) {
-            mylist.add(cursor.getString(1));
+            mylist.add(cursor.getString(0));
         }
         return mylist;
     }
