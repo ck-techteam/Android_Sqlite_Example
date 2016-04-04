@@ -51,6 +51,7 @@ public class Databasehandler extends SQLiteOpenHelper {
         Cursor cursor = db.query(TABLE_Name, null, null, null, null, null, null);
         while (cursor.moveToNext()) {
             mylist.add(cursor.getString(0));
+            //get the name
         }
         return mylist;
     }
