@@ -4,7 +4,7 @@
 <h3>Creating Database:
 </h3>
 <li><strong>Step 1:</strong>
-</li>
+
 
 <li>Create a Database class extending SqliteOpenHelper Class, so that it will override all the database necessary methods. 
 </li>
@@ -18,7 +18,7 @@ You can retrieve the values using cursor.Cursor is a class which is used to read
 <li>
 Now Create an xml file to input data and retrieve data.</li>
 <img src="http://armorappz.com/github/Sqlite Database_activity.png">
-
+</li>
 
 <li><strong>Step 2:</strong>   Enter text in the editText and click on button. Get the value from input user and save to the database and in the listview show the datas.
 <br><br>
