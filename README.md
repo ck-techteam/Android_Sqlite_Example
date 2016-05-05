@@ -16,7 +16,7 @@ Values can be inserted only by using content values.</li>
 <li>
 You can retrieve the values using cursor.Cursor is a class which is used to read values from database.</li>
 <li>
-Now Create an xml file to input data and retrieve data.</li><br><br>
+Now Create an xml file to input data and retrieve data.</li><br>
 <img src="http://armorappz.com/github/Sqlite Database_activity.png">
 
 
