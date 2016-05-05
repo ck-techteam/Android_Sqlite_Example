@@ -4,7 +4,6 @@
 <h3>Creating Database:
 </h3>
 <li><strong>Step 1:</strong>
-<br><br>
 </li>
 
 <li>Create a Database class extending SqliteOpenHelper Class, so that it will override all the database necessary methods. 
