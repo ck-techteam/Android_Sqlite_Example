@@ -27,7 +27,7 @@ Now Create an xml file to input data and retrieve data.</li><br>
 <br><br>
 <img src="http://armorappz.com/github/Sqlite Database_activity_java.png">
 </li>
-<li><strong>Step 3:</strong>
+<li><strong>Step 4:</strong>
  Create a database file and retrieve the data from database and store it in the arraylist to show in the listview . Pass the values to Array Adapter and list the data.
 <br><br>
 <img src="http://armorappz.com/github/Sqlite Database_activity_db.png">
